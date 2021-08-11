@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body
+{
+    background: antiquewhite;
+}
+
+.title
+{
+    font-size: 48px;
+    text-align: center;
+    padding: 12px;
+    color: rgb(28, 28, 42);
+
+}
+
+.container
+{
+    box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, .75);
+    border-radius: 4px;
+    max-width: 250px;
+    margin: 6% auto;
+    /* height: 20vh; */
+    background: rgba(28, 28, 42, .9);
+    color: antiquewhite;
+    padding: 18px;
+}
+
+input
+{
+    border: none;
+    background: rgba(28, 28, 42, .1);
+    color: antiquewhite;
+    border-bottom: 1px solid antiquewhite;
+    padding: 9px;
+    width: 230px;
+}
+
+input:focus
+{
+    outline: none;
+}
+
+.input
+{
+    font-size: 38px;
+    margin-bottom: 12px;
+}
+
+.output
+{
+    font-size: 38px;
+    margin-bottom: 12px;
+}
+
+.button
+{
+    background: antiquewhite;
+    color: rgb(28, 28, 42);
+    padding: 12px;
+    font-size: large;
+    font-weight: bolder;
+    margin: 3px;
+    width: 74px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 25);
+    cursor: pointer;
+    transition: 250ms ease;
+}
+
+.button:hover
+{
+    background: rgba(255, 239, 219, .8);
+    box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 15);
+
+}
